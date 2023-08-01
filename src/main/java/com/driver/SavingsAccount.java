@@ -5,7 +5,7 @@ public class SavingsAccount extends BankAccount{
     double maxWithdrawalLimit;
 
     public double getRate() {
-        return rate;
+        return this.rate;
     }
 
     public void setRate(double rate) {
@@ -13,7 +13,7 @@ public class SavingsAccount extends BankAccount{
     }
 
     public double getMaxWithdrawalLimit() {
-        return maxWithdrawalLimit;
+        return this.maxWithdrawalLimit;
     }
 
     public void setMaxWithdrawalLimit(double maxWithdrawalLimit) {
